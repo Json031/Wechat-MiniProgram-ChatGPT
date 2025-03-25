@@ -1,0 +1,49 @@
+/**index.wxss**/
+.xiqoquyanenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #aaa;
+}
+
+.userinfo-avatar {
+  overflow: hidden;
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  margin-top: 0px;
+  font-size: 12px;
+  font-weight: bold;
+  color: orange;
+}
+
+.toolList {
+    position: absolute;
+    top: calc(100vh - 185px);
+    width: 100vw;
+    height: 70px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.toolItem {
+    border-radius: 23px;
+    position: relative;
+    width: 95px;
+    height: 70px;
+    background-color:orange;
+    text-align: center;
+    color: white;
+}
+.toolImg {
+    margin-top: 10px;
+    width: 41px;
+    height: 30px;
+}
+.toolTip {
+    font-size: 12px;
+}

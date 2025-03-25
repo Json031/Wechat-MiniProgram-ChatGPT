@@ -1,0 +1,76 @@
+<!--pages/contact/contact.wxml-->
+ 
+<view>
+ 
+ <scroll-view id="contentbg" scroll-y scroll-into-view='{{toView}}' style='height: {{scrollHeight}};' scroll-top="{{scrollTop}}">
+  <!-- <view class='scrollMsg'> -->
+  <block wx:key wx:for='{{msgList}}' wx:for-index="index">
+ 
+   <!-- 单个消息1 客服发出（左） -->
+   <view wx:if='{{item.speaker=="server"}}' id='msg-{{index}}' style='display: flex; padding: 2vw 11vw 2vw 2vw;'>
+    <view style='width: 11vw; height: 11vw;'>
+     <image style='width: 11vw; height: 11vw; border-radius: 10rpx;' src='/images/chatLogo.png'></image>
+    </view>
+    <view style='width: 4vw; height: 11vw; margin-left: 0.5vw; display: flex; align-items: center; z-index: 9;'>
+     <!-- <image style='width: 4vw;' src='/images/leftMsg.png' mode='widthFix'></image> -->
+    </view>
+    <view class='leftMsg' style="max-width: calc(100vw - 100px);word-wrap: break-word;word-break: break-all;" data-copytxt="{{item.content}}"><text user-select="{{true}}">{{item.content}}</text></view>
+   </view>
+
+   <!-- 单个消息1 客服发出（左） -->
+   <view wx:elif='{{item.speaker=="loading"}}' id='msg-{{index}}' style='display: flex; padding: 2vw 11vw 2vw 2vw;'>
+    <view style='width: 11vw; height: 11vw;'>
+     <image style='width: 11vw; height: 11vw; border-radius: 10rpx;' src='/images/chatLogo.png'></image>
+    </view>
+    <view style='width: 20vw; height: 15vw; margin-left: 0.5vw; display: flex; align-items: center; z-index: 9;'>
+     <image style='width: 15vw;' src='/images/loading.gif' mode='widthFix'></image>
+    </view>
+   </view>
+
+   <!-- 单个消息1 客服发出（左） -->
+   <view wx:elif='{{item.speaker=="aiimg"}}' id='msg-{{index}}' style='display: flex; padding: 2vw 11vw 2vw 2vw;'>
+    <view style='width: 11vw; height: 11vw;'>
+     <image style='width: 11vw; height: 11vw; border-radius: 10rpx;' src='/images/chatLogo.png'></image>
+    </view>
+    <view style='width: 82vw; height: 90vw; margin-left: 0.5vw; display: flex; align-items: center; z-index: 9;'>
+     <image style='width: 82vw;border-radius: 5%;' src='{{item.content}}' mode='widthFix'></image>
+    </view>
+   </view>
+ 
+   <!-- 单个消息2 用户发出（右） -->
+   <view wx:elif='{{item.speaker=="minevoice"}}' id='msg-{{index}}' style='display: flex; justify-content: flex-end; padding: 2vw 2vw 2vw 11vw;'>
+    <view class='rightMsg' style="max-width: calc(100vw - 100px);">{{item.content}}    <image style='width: 4vw;' src='/images/mine_voice_icon.png' mode='widthFix'></image></view>
+    <view style='width: 11vw; height: 11vw;'>
+     <image style='width: 11vw; height: 11vw; border-radius: 10rpx;' src='/images/me.jpg'></image>
+    </view>
+   </view>
+ 
+ <!-- 单个消息2 用户发出（右） -->
+ <view wx:else id='msg-{{index}}' style='display: flex; justify-content: flex-end; padding: 2vw 2vw 2vw 11vw;'>
+  <view class='rightMsg' style="max-width: calc(100vw - 100px);word-wrap: break-word;word-break: break-all;" data-copytxt="{{item.content}}"><text user-select="{{true}}">{{item.content}}</text></view>
+  <view style='width: 4vw; height: 11vw; margin-right: 0.5vw; display: flex; align-items: center; z-index: 9;'>
+   <!-- <image style='width: 4vw;' src='/images/right_msg.png' mode='widthFix'></image> -->
+  </view>
+  <view style='width: 11vw; height: 11vw;'>
+   <image style='width: 11vw; height: 11vw; border-radius: 10rpx;' src='/images/me.jpg'></image>
+  </view>
+ </view>
+ 
+  </block>
+  <!-- </view> -->
+ 
+  <!-- 占位 -->
+  <view style='width: 100%; height: 18vw;'></view>
+ </scroll-view>
+ 
+ <view class='inputRoom' style='bottom: {{inputBottom}};height: {{bottomHeight / 2 + 45}}px;'>
+  <image bindtap="changeEditMode" id="editMode" src="{{textEditing ? '/images/voice_icon.png' : '/images/keyboard_icon.png'}}"></image>
+  <input focus="{{focus}}" hidden="{{!textEditing}}" bindinput="changeQues" bindconfirm='sendClick' adjust-position='{{false}}' value='{{inputVal}}' confirm-type='send' bindfocus='focus' bindblur='blur' id="textInput"></input>
+  <button hidden="{{textEditing}}" catch:longpress="handleRecordStart" catch:touchmove="handleTouchMove" catch:touchend="handleRecordStop" id="voiceInput">长按说话</button>
+  
+ </view>
+ <view id="recordingView" style="z-index: 10;" hidden="{{!is_clock}}">
+    <image id="recording" src='/images/recording.gif'></image>
+    <view id="recordingTip">上滑取消发送</view>
+</view>
+</view>

@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="xiqoquyanenter">
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="/images/chatLogo.png" mode="cover"></image>
+      <text bindtap="bindViewTap" class="userinfo-nickname" style="background-color: orange; color: white; padding-top: 5px;padding-bottom: 5px;padding-right: 10px;padding-left: 10px;margin-top: 10px;border-radius: 10px;">ChatGPT</text>
+  </view>
+</view>

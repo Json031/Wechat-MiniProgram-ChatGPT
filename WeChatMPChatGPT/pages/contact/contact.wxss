@@ -1,0 +1,103 @@
+
+/* pages/contact/contact.wxss */
+ 
+page {
+    background-color: #f1f1f1;
+   }
+    
+   .inputRoom {
+    width: 100vw;
+    height: 16vw;
+    border-top: 1px solid #cdcdcd;
+    background-color: #f1f1f1;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    z-index: 20;
+   }
+    
+   input {
+    width: 76vw;
+    height: 9.33vw;
+    background-color: #fff;
+    border-radius: 40rpx;
+    margin-left: 2vw;
+    padding: 0 3vw;
+    font-size: 28rpx;
+    color: #444;
+   }
+    
+   .leftMsg {
+    font-size: 35rpx;
+    color: #444;
+    line-height: 7vw;
+    padding: 2vw 2.5vw;
+    background-color: #fff;
+    margin-left: -1.6vw;
+    border-radius: 10rpx;
+    z-index: 10;
+   }
+    
+   .rightMsg {
+    font-size: 35rpx;
+    color: #444;
+    line-height: 7vw;
+    padding: 2vw 2.5vw;
+    background-color: #96EB6A;
+    margin-right: -1.6vw;
+    border-radius: 10rpx;
+    z-index: 10;
+   }
+
+#recording {
+    position: relative;
+    top: 0px;
+    margin-left: 65px;
+    width: calc(100vw - 130px);
+    height: calc(100vw - 130px);
+}
+#recordingView {
+    position:absolute;
+    top: calc((100vh - 100vw + 130px) / 2);
+    margin-left: 0px;
+    width: 100vw;
+    height: calc(100vw - 90px);
+}
+#recordingTip {
+    position: relative;
+    top: -55px;
+    color: black;
+    font-size: 11px;
+    left: 0px;
+    text-align: center;
+}
+#voiceInput {
+    position: absolute;
+    width: calc(100vw - 55px);
+    height: 35px; 
+    margin-top: 5px; 
+    margin-left: 45px; 
+    background-color:white;
+    border-radius: 17.5px;
+    color: black;
+    font-size: 13px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#textInput {
+    position: absolute;
+    width: calc(100vw - 75px);
+    margin-left: 45px;
+    height: 35px; 
+    margin-top: 5px;
+}
+#editMode {
+    position: absolute;
+    width: 15px;
+    height: 15px; 
+    margin-top: 7.5px;
+    margin-left: 7.5px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 50%;
+}

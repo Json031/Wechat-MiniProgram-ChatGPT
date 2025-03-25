@@ -14,4 +14,6 @@ A WeChat Mini Program that allows users to chat with ChatGPT using both text and
 
 ## Tip 2: The data protocol of the communication address needs to be consistent, otherwise the parsing process needs to be adjusted.
 
-![20250325094756](https://github.com/user-attachments/assets/23dcbc46-392f-439a-ad66-99d866344952)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/23dcbc46-392f-439a-ad66-99d866344952" width="300" style="border: 2px solid blue;" />
+</p>

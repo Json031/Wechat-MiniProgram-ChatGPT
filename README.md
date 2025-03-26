@@ -25,6 +25,7 @@ A WeChat Mini Program that allows users to chat with ChatGPT using both text and
 
 ## Image generation and ChatGPT voice interaction
 https://github.com/user-attachments/assets/e0495edd-8351-4b80-906b-83ac93aa2e8d
+
 https://github.com/user-attachments/assets/7f3ad47c-bfbe-462f-a63c-925a172dbfcd
 
 

@@ -20,3 +20,7 @@ A WeChat Mini Program that allows users to chat with ChatGPT using both text and
   <img src="https://github.com/user-attachments/assets/3bdcf3ea-3f78-4331-b581-5e4c2ab4f072" width="300" style="border: 2px solid blue;" />
   
 </p>
+
+
+https://github.com/user-attachments/assets/e0495edd-8351-4b80-906b-83ac93aa2e8d
+

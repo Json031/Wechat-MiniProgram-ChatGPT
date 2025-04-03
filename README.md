@@ -1,5 +1,5 @@
-一个微信小程序，支持用户通过文本和语音与 ChatGPT 交流，并且还具备画图功能，支持预览绘制的图片并可长按发送给微信好友。
-A WeChat Mini Program that allows users to chat with ChatGPT using both text and voice input. Additionally, it supports image generation functionality, supports previewing drawn images and can be long pressed to send to WeChat friends.
+基于ChatGPT模型开发的AI工具微信小程序，提供聊天机器人、绘画助手等功能，支持用户通过文本和语音与 ChatGPT 交流，并且还具备画图功能，支持预览绘制的图片并可长按发送给微信好友。
+WeChat Mini Program, an AI tool developed based on the ChatGPT model, provides functions such as chatbot and drawing assistant. It supports users to communicate with ChatGPT through text and voice, and also has drawing function. It supports previewing drawn images and long pressing to send them to WeChat friends.
 
 ## Environment Requirements
 

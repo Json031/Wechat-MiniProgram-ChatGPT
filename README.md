@@ -29,3 +29,7 @@ https://github.com/user-attachments/assets/e0495edd-8351-4b80-906b-83ac93aa2e8d
 https://github.com/user-attachments/assets/7f3ad47c-bfbe-462f-a63c-925a172dbfcd
 
 
+
+## License许可证
+This library is licensed under the [Apache 2.0 License](https://github.com/Json031/Wechat-MiniProgram-ChatGPT/blob/main/LICENSE).
+

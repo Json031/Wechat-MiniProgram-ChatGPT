@@ -1,12 +1,12 @@
 基于ChatGPT模型开发的AI工具微信小程序，提供聊天机器人、绘画助手等功能，支持用户通过文本和语音与 ChatGPT 交流，并且还具备画图功能，支持预览绘制的图片并可长按发送给微信好友。
-WeChat Mini Program, an AI tool developed based on the ChatGPT model, provides functions such as chatbot and drawing assistant. It supports users to communicate with ChatGPT through text and voice, and also has drawing function. It supports previewing drawn images and long pressing to send them to WeChat friends.
+<br>WeChat Mini Program, an AI tool developed based on the ChatGPT model, provides functions such as chatbot and drawing assistant. It supports users to communicate with ChatGPT through text and voice, and also has drawing function. It supports previewing drawn images and long pressing to send them to WeChat friends.
 
 ## Environment Requirements
 
 * 微信开发者工具1.06.2409140 Stable
 * 调试基础库 2.19.4
   
-#### Using Wechat developer tool to build the project 使用微信开发者工具构建项目
+#### Using Wechat developer tool to build the project <br>使用微信开发者工具构建项目
 ## Tip 1: Before running the wechat mini program, replace the wssurl and drawImgUrl and sttUrl.
 * const wssurl = "wss://ai.demo.com";
 * const drawImgUrl = 'https://ai.demo.com/api/T2I_api';

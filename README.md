@@ -1,4 +1,9 @@
 # Wechat-MiniProgram-ChatGPT
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow.svg)
+[![License](http://img.shields.io/:license-apache-brightgreen.svg)](https://github.com/Json031/Wechat-MiniProgram-ChatGPT/blob/main/LICENSE)
+![WeChat Developer Tools](https://img.shields.io/badge/WeChatDeveloperTools-1.06.2409140-blue)
+![WeChat Mini Program Base Library](https://img.shields.io/badge/WeChatMiniProgramBaseLibrary-2.19.4-brightgreen)
+<br>
 基于ChatGPT模型开发的AI工具微信小程序开源项目，提供聊天机器人、绘画助手等功能，支持用户通过文本和语音与 ChatGPT 交流，并且还具备画图功能，支持预览绘制的图片并可长按发送给微信好友。
 <br>Open source project for WeChat mini program, an AI tool developed based on the ChatGPT model, provides functions such as chatbot and drawing assistant. It supports users to communicate with ChatGPT through text and voice, and also has drawing function. It supports previewing drawn images and long pressing to send them to WeChat friends.
 

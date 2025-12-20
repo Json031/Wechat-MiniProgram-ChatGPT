@@ -22,9 +22,9 @@
 
 ## Effect demonstration 效果演示
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/23dcbc46-392f-439a-ad66-99d866344952" width="300" style="border: 2px solid blue;" />
-  <img src="https://github.com/user-attachments/assets/33e3a5c6-342d-40a7-a110-1d9fa43fc130" width="300" style="border: 2px solid blue;" />
-  <img src="https://github.com/user-attachments/assets/3bdcf3ea-3f78-4331-b581-5e4c2ab4f072" width="300" style="border: 2px solid blue;" />
+  <img width="220" height="478" alt="screenshot-1" src="https://github.com/user-attachments/assets/23dcbc46-392f-439a-ad66-99d866344952" style="border: 2px solid blue;" />
+  <img width="220" height="478" alt="screenshot-1" src="https://github.com/user-attachments/assets/33e3a5c6-342d-40a7-a110-1d9fa43fc130" style="border: 2px solid blue;" />
+  <img width="220" height="478" alt="screenshot-1" src="https://github.com/user-attachments/assets/3bdcf3ea-3f78-4331-b581-5e4c2ab4f072" style="border: 2px solid blue;" />
   
 </p>
 
